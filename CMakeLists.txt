@@ -32,4 +32,4 @@ enable_testing()
 
 # Discover tests
 include(GoogleTest)
-gtest_discover_tests(unit_tests)
+add_test(NAME AllTests COMMAND $<TARGET_FILE:unit_tests>)
