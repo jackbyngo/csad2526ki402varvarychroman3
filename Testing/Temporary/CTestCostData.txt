@@ -1,0 +1,5 @@
+AddFunctionTest.PositiveNumbers 1 0.0090733
+AddFunctionTest.NegativeNumbers 1 0.0082016
+AddFunctionTest.MixedNumbers 1 0.0081424
+AddFunctionTest.Zero 1 0.0089565
+---

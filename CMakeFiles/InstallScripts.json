@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/repos/csad2526ki402varvarychroman3/cmake_install.cmake",
+		"D:/repos/csad2526ki402varvarychroman3/_deps/gtest-build/cmake_install.cmake",
+		"D:/repos/csad2526ki402varvarychroman3/_deps/gtest-build/googlemock/cmake_install.cmake",
+		"D:/repos/csad2526ki402varvarychroman3/_deps/gtest-build/googletest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

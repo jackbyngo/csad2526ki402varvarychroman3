@@ -1,0 +1,10 @@
+^D:\REPOS\CSAD2526KI402VARVARYCHROMAN3\CMAKEFILES\7158CC189F0D3C1F3CA6D58D971B7AE0\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/repos/csad2526ki402varvarychroman3 -BD:/repos/csad2526ki402varvarychroman3 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/repos/csad2526ki402varvarychroman3/csad2526ki402varvarychroman3.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
