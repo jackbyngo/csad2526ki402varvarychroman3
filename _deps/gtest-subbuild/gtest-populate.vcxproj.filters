@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\repos\csad2526ki402varvarychroman3\_deps\gtest-subbuild\CMakeFiles\bcfe674a373c07f4b79de3b248dfb201\gtest-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\repos\csad2526ki402varvarychroman3\_deps\gtest-subbuild\CMakeFiles\bcfe674a373c07f4b79de3b248dfb201\gtest-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\repos\csad2526ki402varvarychroman3\_deps\gtest-subbuild\CMakeFiles\bcfe674a373c07f4b79de3b248dfb201\gtest-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\repos\csad2526ki402varvarychroman3\_deps\gtest-subbuild\CMakeFiles\bcfe674a373c07f4b79de3b248dfb201\gtest-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\repos\csad2526ki402varvarychroman3\_deps\gtest-subbuild\CMakeFiles\bcfe674a373c07f4b79de3b248dfb201\gtest-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\repos\csad2526ki402varvarychroman3\_deps\gtest-subbuild\CMakeFiles\bcfe674a373c07f4b79de3b248dfb201\gtest-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\repos\csad2526ki402varvarychroman3\_deps\gtest-subbuild\CMakeFiles\bcfe674a373c07f4b79de3b248dfb201\gtest-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\repos\csad2526ki402varvarychroman3\_deps\gtest-subbuild\CMakeFiles\bcfe674a373c07f4b79de3b248dfb201\gtest-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\repos\csad2526ki402varvarychroman3\_deps\gtest-subbuild\CMakeFiles\42e5d5ac84afd8683319eee1f404a3e5\gtest-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\repos\csad2526ki402varvarychroman3\_deps\gtest-subbuild\CMakeFiles\da191840ee030d5c0b951dba7308a981\gtest-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\repos\csad2526ki402varvarychroman3\_deps\gtest-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\repos\csad2526ki402varvarychroman3\_deps\gtest-subbuild\CMakeFiles\gtest-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{98BF77C6-53BD-35B4-BDE2-27FAB67F18CA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

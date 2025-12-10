@@ -1,0 +1,32 @@
+{
+  "tests": 4,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "AddFunctionTest",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "PositiveNumbers",
+          "file": "D:\\repos\\csad2526ki402varvarychroman3\\tests\\unit_tests.cpp",
+          "line": 5
+        },
+        {
+          "name": "NegativeNumbers",
+          "file": "D:\\repos\\csad2526ki402varvarychroman3\\tests\\unit_tests.cpp",
+          "line": 9
+        },
+        {
+          "name": "MixedNumbers",
+          "file": "D:\\repos\\csad2526ki402varvarychroman3\\tests\\unit_tests.cpp",
+          "line": 13
+        },
+        {
+          "name": "Zero",
+          "file": "D:\\repos\\csad2526ki402varvarychroman3\\tests\\unit_tests.cpp",
+          "line": 17
+        }
+      ]
+    }
+  ]
+}
