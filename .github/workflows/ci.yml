@@ -5,6 +5,7 @@ on:
     branches:
       - develop
       - master
+      - 'feature/develop/**'
   pull_request:
     branches:
       - develop
@@ -12,31 +13,38 @@ on:
 
 jobs:
   cross_build:
+    name: Build on ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     strategy:
+      fail-fast: false
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4 
 
       - name: Set up CMake
-        uses: jwlawson/actions-setup-cmake@v1
+        uses: jwlawson/actions-setup-cmake@v1.14
         with:
-          cmake-version: '3.21.2'
+          cmake-version: '3.25.x'
 
       - name: Configure CMake
-        run: cmake . -B build
+        run: cmake -S . -B build
 
       - name: Build the project
         run: cmake --build build
 
       - name: Run tests using CTest
-        run: cmake --build build --target test
+        run: |
+          cd build
+          ctest --output-on-failure -C Debug
 
       - name: Upload build artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4  
         with:
-          name: build-artifacts
-          path: build/
+          name: hello-${{ matrix.os }}
+          path: |
+            build/hello*
+            build/Debug/hello*
+            build/Release/hello*
